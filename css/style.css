@@ -1,7 +1,4 @@
 * {
-    border: 0;
-    padding: 0;
-    scroll-behavior: smooth;
     box-sizing: border-box;
 }
 
@@ -10,9 +7,10 @@
 } */
 
 body {
+    margin: 0;
+    padding: 0;
     height: 100vh;
-    position: relative;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 .video-container {
     height: 100vh;
@@ -23,18 +21,19 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: center;
+   
 }
 
 .content {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
     position: absolute;
     right: 50%;
     left: 50%;
     top: 0;
+    
 }
 
 @media only screen and (max-width: 768px) {
