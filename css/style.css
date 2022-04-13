@@ -36,19 +36,22 @@ body {
     
 }
 
-@media only screen and (max-width: 768px) {
-    .content img {
-        width: 400px;
-    }
-  }
 
-  @media only screen and (max-width: 375px) {
-    .content img {
-        width: 250px;
-    }
-  }
 
 .content img {
     z-index: 1000;
     width: 500px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .content img {
+        width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .content img {
+        width: 200px;
+    }
+  }
