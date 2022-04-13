@@ -50,4 +50,5 @@ body {
 
 .content img {
     z-index: 1000;
+    width: 500px;
 }
